@@ -10,7 +10,7 @@ exit();
     $idcolumn = $_POST['idcolumn'];
     $id = $_POST['id'];
     $password = $_POST['password'];
-    if ($password != "sewanee") {
+    if ($password != "pass") {
         print "Access Denied: Incorrect Password";
         endHTML();
         exit();
