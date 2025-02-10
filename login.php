@@ -14,6 +14,6 @@ $opts = [
 
 
 function print_pass() {
-	return "sewanee";
+	return "pass";
 }
 ?>
