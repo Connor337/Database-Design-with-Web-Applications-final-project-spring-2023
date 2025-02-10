@@ -2,7 +2,7 @@
 exit();
     include "../html-include.php";
     $password = $_POST['password'];
-    if ($password != "sewanee") {
+    if ($password != "pass") {
         print "Access Denied: Incorrect Password";
         endHTML();
         exit();
